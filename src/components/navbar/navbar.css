@@ -21,9 +21,12 @@
     margin-right: 2rem;
 }
 
-.gpt3__navbar-links-logo img{
-    width: 62.56px;
-    height: 16.02px;
+.gpt3__navbar-links-logo h2{
+
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size:22px;
+
 }
 
 .gpt3__navbar-links_container{
@@ -46,10 +49,16 @@
     font-size:14px;
     line-height: 25px;
     text-transform:capitalize;
-
     margin:0 1rem;
     cursor:pointer;
 } 
+
+.gpt3__navbar-menu_container-links p{
+
+    color:var(--color-text);
+
+}
+
 
 .gpt3__navbar-links_container p:hover,
 .gpt3__navbar-sign p:hover,
@@ -57,6 +66,8 @@
 .gpt3__navbar-menu_container-links-sign p:hover{
     color:var(--color-text);
 }
+
+
 
 
 .gpt3__navbar-sign button,
@@ -92,7 +103,7 @@
     flex-direction: column;
 
     text-align:end;
-    background:var(--color-footer);
+    background:var(--color-bg);
     padding:2rem;
     position:absolute;
     top:40px;
