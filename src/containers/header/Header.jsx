@@ -2,6 +2,7 @@ import React from 'react';
 import './header.css';
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
+import kobe from '../../assets/kobe.png';
 const Header = () => {
     return (
         <div className="gpt3__header section__padding" id="home">
@@ -19,7 +20,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="gpt3__header-image">
-                <img src={ai} alt="ai" />
+                <img src={kobe} alt="ai" />
             </div>
         </div >
     )
