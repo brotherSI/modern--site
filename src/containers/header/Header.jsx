@@ -11,12 +11,7 @@ const Header = () => {
                 <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
                 <div className="gpt3__header-content__input">
                     <input type="email" placeholder="Your email Address" />
-                    <button type="button">Get Started</button>
-                </div>
-
-                <div className="gpt3__header-content_people">
-                    <img src={people} alt="photo of people" />
-                    <p>1600 people requested access a visit in the last 24 hours</p>
+                    <button type="button">Join Us</button>
                 </div>
             </div>
             <div className="gpt3__header-image bounce-in-top">

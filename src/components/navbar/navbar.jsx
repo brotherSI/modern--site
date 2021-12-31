@@ -18,7 +18,7 @@ const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <div className="gpt3__navbar">
-            <div className="gpt3__navbar-links-logo">
+            <div className="gpt3__navbar-links-logo tracking-in-expand">
                 <h2 className="gradient__text">LOGO</h2>
             </div>
             <div className="gpt3__navbar-links">
@@ -26,9 +26,9 @@ const Navbar = () => {
                     <Menu />
                 </div>
             </div>
-            <div className="gpt3__navbar-sign ">
+            <div className="gpt3__navbar-sign tracking-in-expand ">
                 <p>Sign in</p>
-                <button type="button">Sign up</button>
+                <button type="button" className="text-focus-in">Sign up</button>
             </div>
             <div className="gpt3__navbar-menu">
                 {toggleMenu
@@ -45,11 +45,9 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-
                 )}
             </div>
         </div>
     )
 }
-
 export default Navbar
