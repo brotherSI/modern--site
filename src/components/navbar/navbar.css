@@ -42,6 +42,7 @@
 
 .gpt3__navbar-links_container p,
 .gpt3__navbar p,
+.gpt3__navbar-menu_container-links p,
 .gpt3__navbar-menu_container p{
     color:var(--color-nav-hover);
     font-family: var(--font-family);
@@ -53,11 +54,7 @@
     cursor:pointer;
 } 
 
-.gpt3__navbar-menu_container-links p{
 
-    color:var(--color-text);
-
-}
 
 
 .gpt3__navbar-links_container p:hover,
@@ -90,6 +87,7 @@
     margin-left:1rem;
     display:none;
     position: relative;
+    z-index: 1;
 }
 
 .gpt3__navber-menu svg{
