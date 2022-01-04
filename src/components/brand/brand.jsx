@@ -1,24 +1,24 @@
 import React from 'react';
-import { google, slack, atlassian, dropbox, shopify } from './imports';
+import { LaLiga, nba, epl, ufc, f1 } from './imports';
 import './brand.css';
 
 const Brand = () => {
     return (
         <div className="gpt3__brand section__padding">
             <div>
-                <img src={google} alt="google" />
+                <img src={LaLiga} alt="LaLiga" />
             </div>
             <div>
-                <img src={slack} alt="slack" />
+                <img src={nba} alt="nba" />
             </div>
             <div>
-                <img src={atlassian} alt="atlassian" />
+                <img src={epl} alt="epl" />
             </div>
             <div>
-                <img src={dropbox} alt="dropbox" />
+                <img src={ufc} alt="ufc" />
             </div>
             <div>
-                <img src={shopify} alt="shopify" />
+                <img src={f1} alt="f1" />
             </div>
         </div>
     )

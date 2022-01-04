@@ -1,9 +1,9 @@
-import google from '../../assets/google.png';
-import slack from '../../assets/slack.png';
-import atlassian from '../../assets/atlassian.png';
-import dropbox from '../../assets/dropbox.png';
-import shopify from '../../assets/shopify.png';
+import LaLiga from '../../assets/LaLiga.png';
+import nba from '../../assets/nba.png';
+import epl from '../../assets/epl.png';
+import ufc from '../../assets/ufc.png';
+import f1 from '../../assets/f1.png';
 
 export {
-    google, slack, atlassian, dropbox, shopify
+    LaLiga, nba, epl, ufc, f1
 }
