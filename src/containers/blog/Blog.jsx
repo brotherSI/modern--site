@@ -15,7 +15,7 @@ const Blog = () => {
                 </div>
                 <div className="gpt3__blog-container_groupB">
                     <Article imgUrl={blog2} date="Sep 29, 2021" title="Lewis Hamilton's former title rival Nico Rosberg on Max Verstappen's aggressive driving style" />
-                    <Article imgUrl={blog3} date="Sep 29, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+                    <Article imgUrl={blog3} date="Sep 29, 2021" title="" />
                     <Article imgUrl={blog4} date="Sep 29, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
                     <Article imgUrl={blog5} date="Sep 29, 2021" title="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
                 </div>
