@@ -1,16 +1,15 @@
 import React from 'react';
 import { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo2 from '../../assets/logo2.png';
 import './navbar.css';
 
 const Menu = () => (
     <>
         <p><a href="#home">Home</a></p>
-        <p><a href="#wgpt3">What is GPT?</a></p>
-        <p><a href="#possibility">Open AI</a></p>
-        <p><a href="#features">Case Studies</a></p>
-        <p><a href="#blog">Labrary</a></p>
+        <p><a href="#blog">News</a></p>
+        <p><a href="#wgpt3">Sport site</a></p>
+        <p><a href="#possibility">Run Event</a></p>
+        <p><a href="#features">Streaming partners</a></p>
     </>
 )
 
