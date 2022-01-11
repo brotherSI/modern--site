@@ -8,7 +8,7 @@
     padding: 2rem;
     margin:4rem;
     border-radius: 1rem;
-    background:var(--gradient-bar);
+    background:var(--new-gradient-text);
 }
 
 .gpt3__cta-content p{
