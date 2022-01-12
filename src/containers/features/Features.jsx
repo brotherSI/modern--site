@@ -6,20 +6,20 @@ const Features = () => {
 
     const featuresData = [
         {
-            title: 'Improving end distrusts instantly',
-            text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+            title: 'Quisque cursus, metus',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.'
         },
         {
-            title: 'Become the tended active',
-            text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+            title: 'Lorem ipsum dolor sit',
+            text: 'Fusce nec tellus sed augue semper porta. Mauris massa.Vestibulum lacinia arcu eget nulla. Class aptent taciti.',
         },
         {
-            title: 'Message or am nothing',
-            text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+            title: 'Quisque cursus, metus',
+            text: ' Praesent mauris. Fusce nec tellus sed augue semper porta, Class aptent taciti',
         },
         {
-            title: 'Really boy law county',
-            text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+            title: 'Sed cursus ante',
+            text: 'Fusce nec tellus sed augue semper porta. Mauris massa.Vestibulum lacinia arcu eget nulla. Class aptent taciti.',
         },
 
     ];
@@ -27,8 +27,8 @@ const Features = () => {
     return (
         <div className="gpt3__features section__padding" id="features">
             <div className="gpt3__features-heading">
-                <h1 className="gradient__text">The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
-                <p>Request Early Access to Get Started</p>
+                <h1 className="gradient__text">Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</h1>
+                <p>Vestibulum ante ipsum primis</p>
             </div>
             <div className="gpt3__features-container">
                 {featuresData.map((item, index) => (

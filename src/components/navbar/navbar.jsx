@@ -12,7 +12,6 @@ const Menu = () => (
         <p><a href="#features">Streaming partners</a></p>
     </>
 )
-
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (

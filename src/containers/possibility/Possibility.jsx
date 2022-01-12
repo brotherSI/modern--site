@@ -10,9 +10,9 @@ const Possibility = () => {
                 <img src={run} alt="possibility" />
             </div>
             <div className="gpt3__possibility-content">
-                <h4>Request Early Access to Get Started</h4>
-                <h1 className="gradient__text">The possibilities are beyound your imagination</h1>
-                <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                <h4>Nulla quis sem at nibh elementum imperdiet</h4>
+                <h1 className="gradient__text">The annual run event competition</h1>
+                <p> Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. </p>
                 <h4>Request Early Access to Get Started</h4>
             </div>
         </div>
